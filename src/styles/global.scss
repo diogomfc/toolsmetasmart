@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FFF;
+
+    --gray-40: #DDDCDB;
+    --gray-50: #F7F8FA;
+    --gray-100: #E6E8EB;
+    --gray-200: #AFB2B1;
+    --gray-500: #808080;
+    --gray-800: #494D4B;
+  
+    --green-500: #04D361;
+    
+    --purple-300: #9F75FF;
+    --purple-400: #9164FA; 
+    --purple-500: #8257E5;
+    --purple-800: #6F48C9;
+
+    /* Cores Principais - theme dark */
+    --dark--800: #232835;
+    --dark--500: #353A49;
+    --dark--400: #3E424E;
+
+     /* Cores Segundarias - theme dark */
+     --red--800: #F23947;
+     --red--500: #F84F6B;
+     --red--400: #DD4545;
+     --red--200: #D64550;
+
+     --green--800: #00FF6C;
+     --green--500: #51A888;
+     --green--400: #2ECC71;
+     --green--200: #4CFF00;
+
+     --gray-40: #7584A6;
+
+     /* Cores fontes - theme dark */
+     --blue--800:#03B8CB;
+     --blue--500:#01B8AA;
+     --blue--400:#338AE8;
+  }
+
+body{
+    background: var(--dark--800);
+}
+
+body, input, textarea, button{
+    font: 500 1rem Roboto, sans-serif;
+    color: var(--gray-500);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+    color: var(--gray-800);
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+button{
+    cursor: pointer;
+}
+

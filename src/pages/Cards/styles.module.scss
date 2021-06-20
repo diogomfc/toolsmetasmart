@@ -1,0 +1,128 @@
+
+.content{
+
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+
+
+.container{
+    width: 32%;
+    height: 180px;
+
+    border-radius: 7px;
+    padding:10px 20px;
+    
+    position: relative;
+    overflow: hidden;
+    
+    }
+    
+.card {
+     
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    
+    border-radius: 7px;
+    
+    position: relative;
+    overflow: hidden;
+    
+    background-color: #353A49;
+    border: 1px solid #51A888;
+    box-shadow: 0px 0px 5px 0px #2ECC71;
+    
+    h1{
+    display: flex;
+    font-size: 75px;
+    align-items: center;
+    justify-content: center;
+    color: #51A888;
+    } 
+
+    small{
+        display: flex;
+        justify-content:space-evenly;
+        color: #FFF;  
+    }
+
+    P{
+        display: flex;
+        justify-content:space-evenly;
+        color: #51A888;  
+    }
+             
+}
+
+.cardnegativo {
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    
+    border-radius: 7px;
+    
+    position: relative;
+    overflow: hidden;
+    
+    background-color: #353A49;
+    border: 1px solid #F23947;
+    box-shadow: 0px 0px 5px 0px #F23947;
+    
+    h1{
+    display: flex;
+    font-size: 75px;
+    align-items: center;
+    justify-content: center;
+    color: #F23947;
+    } 
+
+    small{
+        display: flex;
+        justify-content:space-evenly;
+        color: #FFF;  
+    }
+
+    P{
+        display: flex;
+        justify-content:space-evenly;
+        color: #F23947;  
+    }             
+}
+
+.carterizadas {
+     
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    
+    border-radius: 7px;
+    
+    position: relative;
+    overflow: hidden;
+    
+    background-color: #353A49;
+    border: 1px solid #7584A6;
+    box-shadow: 0px 0px 5px 0px #7584A6;
+    
+    h1{
+    display: flex;
+    font-size: 75px;
+    align-items: center;
+    justify-content: center;
+    color: #7584A6;
+    } 
+
+    small{
+        display: flex;
+        justify-content:space-evenly
+    }
+
+    P{
+        display: flex;
+        justify-content:space-evenly;
+        color: #7584A6;  
+    }
+}
